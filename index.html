@@ -767,6 +767,134 @@
       </div>
     </div>
 
+    <!-- ==================== Account Deletion (3 languages, always visible) ==================== -->
+    <!-- Anchor URL: https://heyday07.github.io/smartflip-privacy/#account-deletion
+         Required by Google Play (Android Developer policy) for apps with user accounts. -->
+    <section id="account-deletion" style="margin-top: 60px; padding: 30px 0; border-top: 2px solid #1E88E5;">
+
+      <!-- 한국어 -->
+      <h2 lang="ko" style="color: #1E88E5; margin-top: 20px;">계정 및 데이터 삭제 요청</h2>
+      <p lang="ko"><strong>앱 이름:</strong> SmartFlip (매일매일 상식퀴즈)</p>
+      <p lang="ko"><strong>개발자:</strong> RedMoon Studio (heyday07@gmail.com / teamstar13000@gmail.com)</p>
+
+      <h3 lang="ko">1. 앱 내 자체 처리 방법</h3>
+      <ul lang="ko">
+        <li><strong>로컬 데이터 삭제</strong>: 폰 설정 → 앱 → SmartFlip → 저장공간 → "저장공간 지우기" 또는 앱 삭제로 즉시 모든 로컬 데이터 제거</li>
+        <li><strong>클라우드 동기화 중단</strong>: 앱 내 [설정 → 클라우드 백업 → 로그아웃]</li>
+      </ul>
+
+      <h3 lang="ko">2. 클라우드 데이터 영구 삭제 요청</h3>
+      <p lang="ko">본인의 Google 계정에 연결된 클라우드 백업 데이터(레벨 / EXP / 스트릭 / 뱃지 / 미션 / 퀴즈 기록)의 영구 삭제를 원하시면:</p>
+      <ol lang="ko">
+        <li>이메일 전송 — 제목: <code>[SmartFlip] 계정 삭제 요청</code>, 본문: 로그인한 Google 계정 이메일 주소</li>
+        <li>이메일: <a href="mailto:teamstar13000@gmail.com">teamstar13000@gmail.com</a></li>
+        <li>처리 기간: <strong>영업일 기준 7일 이내</strong></li>
+        <li>처리 결과: 삭제 완료 시 회신 이메일로 안내</li>
+      </ol>
+
+      <h3 lang="ko">3. 삭제되는 데이터 / 보관되는 데이터</h3>
+      <table lang="ko" border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin-top: 10px;">
+        <thead style="background: #f5f5f5;">
+          <tr><th>데이터 유형</th><th>처리</th><th>보관 기간</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>레벨 / EXP / 칭호</td><td>즉시 삭제</td><td>없음</td></tr>
+          <tr><td>스트릭 (학습 일수)</td><td>즉시 삭제</td><td>없음</td></tr>
+          <tr><td>뱃지 / 데일리 미션</td><td>즉시 삭제</td><td>없음</td></tr>
+          <tr><td>퀴즈 기록</td><td>즉시 삭제</td><td>없음</td></tr>
+          <tr><td>이메일 / 사용자 이름 (Firebase Auth)</td><td>즉시 삭제</td><td>없음</td></tr>
+          <tr><td>크래시 로그 (개인 식별 불가)</td><td>익명화 후 보관</td><td>최대 90일 (Firebase Crashlytics 정책)</td></tr>
+          <tr><td>광고 ID 기반 분석</td><td>익명화 후 보관</td><td>최대 14개월 (Firebase Analytics 정책)</td></tr>
+        </tbody>
+      </table>
+
+      <h3 lang="ko">4. 카드 / 이미지 데이터</h3>
+      <p lang="ko">SmartFlip은 사용자의 카드 / 카드 세트 / 이미지를 <strong>클라우드에 저장하지 않습니다</strong>. 이 데이터는 사용자 폰 내부에만 저장되며, 앱 삭제 또는 폰 초기화 시 함께 제거됩니다.</p>
+
+      <hr style="margin: 40px 0; border: none; border-top: 1px solid #ddd;">
+
+      <!-- English -->
+      <h2 lang="en" style="color: #1E88E5; margin-top: 20px;">Account &amp; Data Deletion Request</h2>
+      <p lang="en"><strong>App:</strong> Smart Trivia (SmartFlip)</p>
+      <p lang="en"><strong>Developer:</strong> RedMoon Studio (heyday07@gmail.com / teamstar13000@gmail.com)</p>
+
+      <h3 lang="en">1. In-app Self-service</h3>
+      <ul lang="en">
+        <li><strong>Delete local data</strong>: Phone Settings → Apps → SmartFlip → Storage → "Clear storage", or uninstall the app</li>
+        <li><strong>Stop cloud sync</strong>: In-app [Settings → Cloud Backup → Sign out]</li>
+      </ul>
+
+      <h3 lang="en">2. Permanent cloud data deletion request</h3>
+      <p lang="en">To permanently delete cloud-stored data (level / EXP / streak / badges / missions / quiz history) tied to your Google account:</p>
+      <ol lang="en">
+        <li>Send an email — Subject: <code>[SmartFlip] Account Deletion Request</code>, Body: the Google account email used to sign in</li>
+        <li>Email: <a href="mailto:teamstar13000@gmail.com">teamstar13000@gmail.com</a></li>
+        <li>Processing time: <strong>within 7 business days</strong></li>
+        <li>Confirmation: email reply once deletion is complete</li>
+      </ol>
+
+      <h3 lang="en">3. Data deleted vs retained</h3>
+      <table lang="en" border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin-top: 10px;">
+        <thead style="background: #f5f5f5;">
+          <tr><th>Data Type</th><th>Action</th><th>Retention Period</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Level / EXP / Title</td><td>Deleted immediately</td><td>None</td></tr>
+          <tr><td>Streak (study days)</td><td>Deleted immediately</td><td>None</td></tr>
+          <tr><td>Badges / Daily missions</td><td>Deleted immediately</td><td>None</td></tr>
+          <tr><td>Quiz history</td><td>Deleted immediately</td><td>None</td></tr>
+          <tr><td>Email / Username (Firebase Auth)</td><td>Deleted immediately</td><td>None</td></tr>
+          <tr><td>Crash logs (anonymized)</td><td>Anonymized + retained</td><td>Up to 90 days (Firebase Crashlytics policy)</td></tr>
+          <tr><td>Ad-ID based analytics</td><td>Anonymized + retained</td><td>Up to 14 months (Firebase Analytics policy)</td></tr>
+        </tbody>
+      </table>
+
+      <h3 lang="en">4. Cards / Images</h3>
+      <p lang="en">SmartFlip does <strong>not</strong> store your cards, decks, or images in the cloud. This data lives only on your device and is removed when you uninstall the app or reset your phone.</p>
+
+      <hr style="margin: 40px 0; border: none; border-top: 1px solid #ddd;">
+
+      <!-- 日本語 -->
+      <h2 lang="ja" style="color: #1E88E5; margin-top: 20px;">アカウント・データ削除リクエスト</h2>
+      <p lang="ja"><strong>アプリ名:</strong> Smart Trivia (デイリー雑学クイズ)</p>
+      <p lang="ja"><strong>開発者:</strong> RedMoon Studio (heyday07@gmail.com / teamstar13000@gmail.com)</p>
+
+      <h3 lang="ja">1. アプリ内セルフサービス</h3>
+      <ul lang="ja">
+        <li><strong>ローカルデータの削除</strong>: 端末の設定 → アプリ → SmartFlip → ストレージ → 「ストレージを消去」、またはアプリのアンインストール</li>
+        <li><strong>クラウド同期の停止</strong>: アプリ内 [設定 → クラウドバックアップ → ログアウト]</li>
+      </ul>
+
+      <h3 lang="ja">2. クラウドデータの完全削除リクエスト</h3>
+      <p lang="ja">Googleアカウントに紐づくクラウドバックアップデータ(レベル / EXP / ストリーク / バッジ / ミッション / クイズ履歴)の完全削除をご希望の場合:</p>
+      <ol lang="ja">
+        <li>メール送信 — 件名: <code>[SmartFlip] アカウント削除リクエスト</code>、本文: ログインに使用したGoogleアカウントのメールアドレス</li>
+        <li>メール: <a href="mailto:teamstar13000@gmail.com">teamstar13000@gmail.com</a></li>
+        <li>処理期間: <strong>営業日 7日以内</strong></li>
+        <li>処理結果: 削除完了時に返信メールでお知らせ</li>
+      </ol>
+
+      <h3 lang="ja">3. 削除されるデータ / 保管されるデータ</h3>
+      <table lang="ja" border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin-top: 10px;">
+        <thead style="background: #f5f5f5;">
+          <tr><th>データ種類</th><th>処理</th><th>保管期間</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>レベル / EXP / 称号</td><td>即時削除</td><td>なし</td></tr>
+          <tr><td>ストリーク(連続学習日)</td><td>即時削除</td><td>なし</td></tr>
+          <tr><td>バッジ / デイリーミッション</td><td>即時削除</td><td>なし</td></tr>
+          <tr><td>クイズ履歴</td><td>即時削除</td><td>なし</td></tr>
+          <tr><td>メール / ユーザー名 (Firebase Auth)</td><td>即時削除</td><td>なし</td></tr>
+          <tr><td>クラッシュログ(匿名化)</td><td>匿名化のうえ保管</td><td>最大90日 (Firebase Crashlytics方針)</td></tr>
+          <tr><td>広告ID ベース分析</td><td>匿名化のうえ保管</td><td>最大14ヶ月 (Firebase Analytics方針)</td></tr>
+        </tbody>
+      </table>
+
+      <h3 lang="ja">4. カード・画像データ</h3>
+      <p lang="ja">SmartFlipはユーザーのカード・カードセット・画像を<strong>クラウドには保存しません</strong>。これらのデータは端末内にのみ保存され、アプリの削除または端末の初期化時に一緒に削除されます。</p>
+
+    </section>
+
     <footer>
       &copy; 2026 RedMoon Studio. All rights reserved.
     </footer>
